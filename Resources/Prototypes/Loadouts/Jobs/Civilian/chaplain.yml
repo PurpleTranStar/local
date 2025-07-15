@@ -103,3 +103,9 @@
   storage:
      back:
      - BibleAtheist
+
+- type: loadout
+  id: BibleDruid
+  storage:
+    back:
+    - BibleDruid

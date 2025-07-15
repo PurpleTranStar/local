@@ -121,3 +121,14 @@
     icon: { sprite: Clothing/Head/Hats/witch.rsi, state: icon }
     event: !type:SummonActionEvent
     useDelay: 1
+
+- type: entity
+  parent: Bible
+  name: druidic tablet
+  description: "It's the mystery of the druids!"
+  id: BibleDruid
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Chapel/mysteryofthedruids.rsi
+  - type: Item
+    sprite: Objects/Specific/Chapel/mysteryofthedruids.rsi
