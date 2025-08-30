@@ -263,7 +263,7 @@
           prob: 1
           orGroup: MobHamsterHamlet
         - id: MobHamsterHamletSlippery
-          prob: 0.001
+          prob: 0.02
           orGroup: MobHamsterHamlet
 
 - type: entity
