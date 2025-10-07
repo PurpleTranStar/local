@@ -10,6 +10,36 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+# Playtime requirement for NanoTrasen Bible, Codex NanoTrasimus
+- type: loadoutEffectGroup
+  id: NanoTrasenBibleRequirement
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 7200 #2 hrs
+
+# Playtime requirement for Druid Bible, Druidic Tablet
+- type: loadoutEffectGroup
+  id: DruidBibleRequirement
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobBotanist
+      time: 18000 #5 hrs
+
+# Playtime requirement for Clown Bible, Mirth of the Honkmother
+- type: loadoutEffectGroup
+  id: ClownBibleRequirement
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 18000 #5 hrs
+
 # Head
 - type: loadout
   id: ChaplainHead
@@ -109,3 +139,24 @@
   storage:
     back:
     - BibleDruid
+
+- type: loadout
+  id: BibleNarsie
+  storage:
+    back:
+    - BibleNarsie
+
+- type: loadout
+  id: BibleHonk
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ClownBibleRequirement
+  storage:
+    back:
+    - BibleHonk
+
+- type: loadout
+  id: BibleRatvar
+  storage:
+    back:
+    - BibleRatvar
