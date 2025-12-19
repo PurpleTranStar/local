@@ -635,12 +635,6 @@
   - LizardPlushieChaplain
 
 - type: loadoutGroup
-  id: ChaplainBible
-  name: loadout-group-chaplain-bible
-  minLimit: 1
-  loadouts:
-
-- type: loadoutGroup
   id: JanitorHead
   name: loadout-group-janitor-head
   minLimit: 0
