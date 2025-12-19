@@ -134,28 +134,6 @@
     sprite: Objects/Specific/Chapel/mysteryofthedruids.rsi
 
 - type: entity
-  id: BibleCommunistManifesto
-  name: communist manifesto
-  parent: Bible
-  description: "Remove the mask of humanity from Capital."
-  components:
-  - type: Sprite
-    sprite: Objects/Specific/Chapel/communistmanifesto.rsi
-  - type: Item
-    sprite: Objects/Specific/Chapel/communistmanifesto.rsi
-
-- type: entity
-  parent: Bible
-  name: satanic bible
-  description: "What could possibly go wrong?"
-  id: BibleSatanic
-  components:
-  - type: Sprite
-    sprite: Objects/Specific/Chapel/satanicbible.rsi
-  - type: Item
-    sprite: Objects/Specific/Chapel/satanicbible.rsi
-
-- type: entity
   id: BibleNarsie
   name: tome of nar'sie
   parent: Bible
@@ -165,17 +143,6 @@
     sprite: Objects/Specific/Chapel/tomeofnarsie.rsi
   - type: Item
     sprite: Objects/Specific/Chapel/tomeofnarsie.rsi
-
-- type: entity
-  id: BibleNanoTrasen
-  name: codex nanotrasimus
-  parent: Bible
-  description: "A familiar book containing the Sacred Operating Procedures."
-  components:
-  - type: Sprite
-    sprite: Objects/Specific/Chapel/codexnanotrasimus.rsi
-  - type: Item
-    sprite: Objects/Specific/Chapel/codexnanotrasimus.rsi
 
 - type: entity
   id: BibleHonk

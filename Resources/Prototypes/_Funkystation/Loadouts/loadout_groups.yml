@@ -76,6 +76,10 @@
   loadouts:
   - ChaplainBibleChristian
   - ChaplainBibleAtheist
+  - BibleDruid
+  - BibleHonk
+  - BibleRatvar
+  - BibleNarsie
 
 - type: loadoutGroup
   id: MagistrateHead
