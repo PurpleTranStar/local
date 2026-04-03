@@ -16,8 +16,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: radioChannel
-  id: Common
-  name: chat-radio-common
+  id: Intercom
+  name: chat-radio-intercom
   keycode: ";"
   frequency: 1459
   color: "#2cdb2c"
