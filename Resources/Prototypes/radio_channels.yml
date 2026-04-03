@@ -18,7 +18,7 @@
 - type: radioChannel
   id: Common
   name: chat-radio-common
-  keycode: ";"
+  keycode: "i"
   frequency: 1459
   color: "#2cdb2c"
   intercomOnly: true # Imp Original
